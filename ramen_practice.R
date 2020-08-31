@@ -1,7 +1,6 @@
 setwd("C:/Users/Julia.Greenberg/Desktop")
 ramen <- read.csv("ramen-ratings.csv")
 head(ramen)
-summary(ramen)
 
 table(ramen$Country)
 ramen$Country <- as.character(ramen$Country)
